@@ -3,7 +3,7 @@
 #include <iostream>
 #include <string>
 
-// Ñòðóêòóðà ýëåìåíòà êîðçèíû
+// Ð¡Ñ‚Ñ€ÑƒÐºÑ‚ÑƒÑ€Ð° ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð° ÐºÐ¾Ñ€Ð·Ð¸Ð½Ñ‹
 struct CartItem {
     int id;
     std::string name;
@@ -19,14 +19,14 @@ public:
         if (stock > 0) {
             items.push_back({ id, name, price });
             totalPrice += price;
-            std::cout << "Òîâàð '" << name << "' óñïåøíî äîáàâëåí â êîðçèíó.\n";
+            std::cout << "Ð¢Ð¾Ð²Ð°Ñ€ '" << name << "' ÑƒÑÐ¿ÐµÑˆÐ½Ð¾ Ð´Ð¾Ð±Ð°Ð²Ð»ÐµÐ½ Ð² ÐºÐ¾Ñ€Ð·Ð¸Ð½Ñƒ.\n";
         }
         else {
-            std::cout << "Îøèáêà: Òîâàðà '" << name << "' íåò íà ñêëàäå!\n";
+            std::cout << "ÐžÑˆÐ¸Ð±ÐºÐ°: Ð¢Ð¾Ð²Ð°Ñ€Ð° '" << name << "' Ð½ÐµÑ‚ Ð½Ð° ÑÐºÐ»Ð°Ð´Ðµ!\n";
         }
     }
 
     void printCart() const {
-        std::cout << "Â êîðçèíå òîâàðîâ: " << items.size() << ", íà îáùóþ ñóììó: " << (int)totalPrice << " ðóá.\n";
+        std::cout << "Ð’ ÐºÐ¾Ñ€Ð·Ð¸Ð½Ðµ Ñ‚Ð¾Ð²Ð°Ñ€Ð¾Ð²: " << items.size() << ", Ð½Ð° Ð¾Ð±Ñ‰ÑƒÑŽ ÑÑƒÐ¼Ð¼Ñƒ: " << (int)totalPrice << " Ñ€ÑƒÐ±.\n";
     }
 };
