@@ -2,6 +2,7 @@
 #include <string>
 #include <iostream>
 
+// Класс Order: отвечает за жизненный цикл заказа, оплату и смену статусов
 class Order {
 public:
     int orderId;
