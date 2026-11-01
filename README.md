@@ -9,9 +9,9 @@
 
 | Участник | Роль в проекте | Ветка разработки | Реализованные модули |
 | :--- | :--- | :--- | :--- |
-| **Участник 1** | Frontend / Клиентская часть | `feature/customer-cart` | `Customer.h` (профиль покупателя), `Cart.h` (корзина) |
-| **Участник 2** | Backend / База данных | `feature/database-product` | `Product.h` (каталог), `ShopDatabase.h` (паттерн Singleton) |
-| **Участник 3** | Fullstack / Менеджер / QA | `feature/order-manager` | `Order.h` (заказы), `Manager.h` (панель сотрудника), `main.cpp` |
+| **Участник 1: Егор Мажников** | Frontend / Клиентская часть | `feature/customer-cart` | `Customer.h` (профиль покупателя), `Cart.h` (корзина) |
+| **Участник 2: Степан Никифоров** | Backend / База данных | `feature/database-product` | `Product.h` (каталог), `ShopDatabase.h` (паттерн Singleton) |
+| **Участник 3: Лозовик Даниил** | Fullstack / Менеджер / QA | `feature/order-manager` | `Order.h` (заказы), `Manager.h` (панель сотрудника), `main.cpp` |
 
 ---
 
